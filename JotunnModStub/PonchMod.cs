@@ -3,15 +3,15 @@ using Jotunn.Entities;
 using Jotunn.Managers;
 using Jotunn.Utils;
 
-namespace JotunnModStub
+namespace ValheimSpells
 {
     [BepInPlugin(PluginGUID, PluginName, PluginVersion)]
     [BepInDependency(Jotunn.Main.ModGuid)]
     //[NetworkCompatibility(CompatibilityLevel.EveryoneMustHaveMod, VersionStrictness.Minor)]
-    internal class JotunnModStub : BaseUnityPlugin
+    internal class PonchMod : BaseUnityPlugin
     {
-        public const string PluginGUID = "com.jotunn.jotunnmodstub";
-        public const string PluginName = "JotunnModStub";
+        public const string PluginGUID = "com.lostcoding.PonchMod";
+        public const string PluginName = "PonchMod";
         public const string PluginVersion = "0.0.1";
         
         // Use this class to add your own localization to the game
